@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>multxt</title>
+</head>
+
+
+<body>
+<form action="/multxt" method="post">
+<input type="text" name="t1" id="user">
+<input type="submit" id="b1" name="b1" value="click me">
+<table>
+{% for i in range(1,10)%}
+    <tr>
+
+    <td>{{ i }}</td>
+    <td>*</td>
+    <td>{{ c }}</td>
+    <td>=</td>
+    <td> {{ i * c }} </td>
+    </tr>
+     {% endfor %}
+
+</table>
+</form>
+</body>
+</html>

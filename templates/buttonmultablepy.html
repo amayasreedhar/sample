@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>buttonmul</title>
+</head>
+<body>
+<form action="/buttonmul" method="post">
+<input type="submit" id="t1" name="t2" value="click me">
+    <tr>
+        {% for i in range(1,10)%}
+    <td>{{ i }}</td>
+    <td>*</td>
+    <td>{{ p }}</td>
+    <td>=</td>
+    <td>{{ i*p }}</td>
+    </tr><br>
+
+{% endfor %}
+</form>
+</body>
+</html>

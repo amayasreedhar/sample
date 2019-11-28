@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Registration Form</title>
+</head>
+<body>
+<form action="/registration" method="post">
+<tr>
+<tr>
+<td><b>Name</b></td>
+<td><input type="text" name="uname" id="uname"/></td>
+</tr>
+<tr>
+<td><b>Address</b></td>
+<td><textarea name="adr" id="adr"></textarea></td>
+</tr>
+<tr>
+<td><b>Age</b></td>
+<td><input type="date" name="age" id="age"/></td>
+</tr>
+<tr>
+<td><b>Gender</b></td>
+<td><input type="radio" name="gen" id="gen" value="male"/>male
+<input type="radio" name="gen" id="gen" value="female"/>female</td>
+</tr>
+<tr>
+
+<tr>
+<td><b>Mobile</b></td>
+<td><input type="text" name="num" id="num"/></td>
+</tr>
+<tr>
+<td><b>Email</b></td>
+<td><input type="email" name="email" id="email"></td>
+</tr>
+<tr>
+<td><b>District</b></td>
+<td><select name="dist" id="dis">
+<option value="select">Select</option>
+<option value="kas">Kasargod</option>
+<option value="kan">Kannur</option>
+<option value="way">Wayanad</option>
+<option value="cali">Kozhikode</option>
+<option value="mal">Malappuram</option>
+<option value="pal">palakkad</option>
+</select></td>
+</tr>
+
+<tr>
+<td><b>qualification</b></td>
+<td><input type="checkbox" name="qual" id="bca" value="bca"/>bca
+<input type="checkbox" name="qual" id="mca" value="mca"/>mca
+<input type="checkbox" name="qual" id="ca" value="ca"/>ca
+    <input type="checkbox" name="qual" id="btch" value="btch"/>btch</td>
+</tr>
+
+    <tr>
+    <p class="email"><b>email</b>
+<input type="text" name="email" id="email"/></p>
+<br></tr>
+<p class="password"><b>PASSWORD</b>
+<input type="text" name="pass" id="pass"/></p>
+    <br></tr>
+    <tr>
+    <p class="conformpassword"><b></b>
+<input type="text" name="cpd" id="cpd"/></p>
+<br></tr>
+    <tr><td><input type="submit" name="sub" value="Register" ></td></tr>
+
+
+</table>
+    </form>
+</body>
+</html>
